@@ -13,4 +13,8 @@
 8) npm install --save @nestjs/sequelize sequelize sequelize-typescript (ORM Sequelize for working with database)
 9) npm install --save pg pg-hstore (There is for postgres, if you want to use another db please visit https://sequelize.org/docs/v6/getting-started/)
 10) npm install --save-dev @types/sequelize (Types)
-12:07
+11) nest generate module name-of-module (can be implemented by yourself)
+12) nest generate controller name-of-controller (can be implemented by yourself)
+13) npm i @nestjs/config (for access to set configurations )
+14) npm i cross-env (allows set system variables during starting the server)
+26:34
