@@ -18,4 +18,4 @@
 13) npm i @nestjs/config (for access to set configurations )
 14) npm i cross-env (allows set system variables during starting the server)
 15) npm i @nestjs/swagger swagger-ui-express
-44:54
+16) npm i @nestjs/jwt bcryptjs (for realization auth)
