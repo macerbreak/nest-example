@@ -13,6 +13,7 @@ const start = async () => {
         .setVersion("1.0.0")
         .addTag("Hi!")
         .build()
+    app.enableCors();
     const document = SwaggerModule.createDocument(app, config)
     SwaggerModule.setup("/api/docs", app, document)
     app.useGlobalPipes(new ValidationPipe())
